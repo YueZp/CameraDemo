@@ -58,6 +58,7 @@ public class CameraPresenter implements CameraContract.Presenter {
                         "io.github.yuezp.camerademo",
                         photoFile);
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
+                intent.addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION | Intent.FLAG_GRANT_READ_URI_PERMISSION);
                 mActivity.startActivityForResult(intent, RQUEST_CAMERA);
             }
 
