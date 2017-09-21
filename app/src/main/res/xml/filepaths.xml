@@ -2,7 +2,7 @@
 <paths>
     <external-path
         name="camera_photos"
-        path="Android/data/io.github.yuezp.camerademo/files/Pictures" />
+        path="Android/data/com.letv.android.client/files" />
     <external-path
         name="dcim"
         path="DCIM/" />
